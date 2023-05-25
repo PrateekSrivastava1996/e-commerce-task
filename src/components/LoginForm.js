@@ -85,7 +85,7 @@ const LoginForm = () => {
                     <div className="form-field flex100 mb-0">
                          <p className="content-link">
                               Don't have an account!{" "}
-                              <Link to="/register"> Sign Up</Link>
+                              <Link> Sign Up</Link>
                          </p>
                     </div>
                </Form >

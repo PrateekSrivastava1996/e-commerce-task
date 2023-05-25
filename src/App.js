@@ -19,6 +19,7 @@ const App = () => {
         <CartProvider>
           <Header />
           <Routes>
+
             <Route
               path='/'
               element={
@@ -48,6 +49,7 @@ const App = () => {
               }
               exact
             />
+
             <Route
               path='/favorites'
               element={
@@ -57,6 +59,7 @@ const App = () => {
               }
               exact
             />
+
             <Route
               path='/cart'
               element={
@@ -66,11 +69,13 @@ const App = () => {
               }
               exact
             />
+
             <Route
               path='*'
-              element={<h2>Page Not Found</h2>}
+              element={<h2 style={{ display: "flex", justifyContent: "center" }}>Page Not Found</h2>}
               exact
             />
+
           </Routes>
           <Footer />
         </CartProvider>
